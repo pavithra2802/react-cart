@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlayout{
+    /* display: flex; */
+    width: 97%;
+    margin: auto;
+    background-color: white;
+}
+.topheader{
+    background-color: #1D1A27;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* gap: 60px; */
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.call{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mail{
+    color: white;
+    display: flex;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+}
+.headercontent {
+    display: flex;
+    padding: 30px;
+    gap: 70px;
+    font-family: 'Inter', sans-serif;
+}
+.search{
+    padding: 30px;
+}
+.heroimg{
+    background-color: #1D1A27;
+    height: 300px;
+    color: white;
+}
+.herocontent{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.carticon{
+    position: absolute;
+    vertical-align: top;
+    padding: 12px 10px 0px 345px ;
+    /* margin: 10px 320px; */
+    
+}
+/* .products1{
+    display: flex;
+} */
+.producttext{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.products1{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.products2{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.products3{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.products4{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.blogheading h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.blogmainsection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog1{
+    width: 50%;
+}
+.blog2{
+    width: 50%;
+}
+.blog3{
+    width: 50%;
+}
+.blog1content{
+    margin-top: 10px;
+    border:1px solid black;
+    /* border-top: none; */
+    width: 80%;
+    margin-left: 55px;
+    /* padding: 20px; */
+
+
+
+}
+.blog1img img{
+    width: 80%;
+    margin-left: 55px;
+}
+.blog1content p{
+    /* width: 300px; */
+    padding: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
+}
+.blog1content h3{
+    /* text-align: center; */
+    text-align: left;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.newsletters img{
+    margin-top: 80px;
+}
+.mainnewssection{
+    background: url(/src/images/newsletterbg.png) no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 50px;
+}
+.mainnewssection{
+    /* width: 100%; */
+    padding: 40px;
+    height: auto;
+    
+}
+.mainnewssection h1{
+    text-align: left;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mainnewssection p{
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.emailsection{
+    padding-top: 20px;
+}
+.emailinput{
+    text-align: left;
+    padding: 10px 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #D4EFF6;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+.emailsection button{
+    background-color: #010336;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: -29px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.readmore button{
+    padding: 0px 10px 20px 20px;
+    border: none;
+    background-color: white;
+    color: #068880;
+    position: relative;
+
+}
+.readmore img{
+    position: absolute;
+    margin-left: 120px;
+
+
+}
+.readmore{
+    display: flex;
+}
+
+
+
+
+.mainfooter{
+    background: url(/src/images/footer\ \(2\).png   ) no-repeat;
+    /* background-image:url(./images/Rectangle\ 37.png) ; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainfoot1{
+    margin-top: 50px;
+
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.mainfoot hr{
+    width: 500px;
+}
+.mainfoot1{
+    padding-top: 250px;
+}
+.logo{
+    padding: 10px 30px;
+}
+.footertopic1 p{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footertopic2 p{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footertopic3 p{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.bottom{
+    padding: 20px;
+}
+.mainfoot hr{
+    color: white;
+    width: 800px;
+    margin-left: 30%;
+    /* margin-left: 180px; */
+    /* margin: 50px 180px 0px 180px; */
+}
+.socialicon{
+    margin-left: 50%;
+}
+.addcart{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-left: 30%;
+    margin-bottom: 60px;
+}
+.productsection{
+    display: flex;
+}
+.products1{
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+.cartCounter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+
+@media screen and (max-width:500px){
+    .app{
+        overflow: hidden;
+
+    }
+    .socialmedia{
+        display: none;
+    }
+    .logo{
+        margin-left: 20%;
+    }
+    .mainnav {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .search{
+        display: none;
+    }
+
+    .subsectionone{
+        display: block;
+    }
+    .subsectionone img{
+        width: 100%;
+        height: 30%;
+    }
+    .products1{
+        display: block !important;
+    }
+    .product1 img{
+        width: 320px;
+        height: 320px;
+        margin: 10px -20px !important;
+    }
+    .addcart{
+        margin-left: 25%;
+    }
+    
+    .blogmainsection{
+        display: block !important;
+    }
+    .blog1img img{
+        margin-left: 40px !important;
+        width: 310px;
+        height: 200px;
+
+    }
+    .blog1{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .blog1content{
+        margin-left: 40px !important;
+
+    }
+    .emailsection button{
+        margin-left: 30% !important;
+        margin-top: 20px;
+
+    }
+    .emailsection input{
+        margin-left: 10% !important;
+        margin-top: 20px;
+
+    }
+    .mainnewssection p{
+        text-align: center;
+    }
+    .mainfoot1{
+        display: block !important;
+    }
+    .footertopic1{
+        text-align: center;
+    }
+    .footertopic2{
+        text-align: center;
+    }
+    .footertopic3{
+        text-align: center;
+    }
+    .mainfoot hr{
+        margin-left: 0px !important;
+    }
+    .bottom{
+        margin-left: 0px !important;
+    }
+    .socialicon{
+        margin-left: 35% !important;
+    }
+    .app{
+        overflow:  hidden !important;
+    }
+
+    
+
+}

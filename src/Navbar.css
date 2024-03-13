@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.gridlayout{
+    /* display: flex; */
+    width: 97%;
+    margin: auto;
+    background-color: white;
+}
+.topheader{
+    background-color: #1D1A27;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px !important;
+    height: 40px;
+    /* gap: 1260px; */
+}
+/* .contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+} */
+.call{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mail{
+    color: white;
+    display: flex;
+}
+
+
+.navbarsection{
+    text-decoration: none;
+    /* justify-content: space-between; */
+    /* display: flex; */
+    gap: 20px;
+    justify-content: center;
+}
+
+.mainnav{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 15px;
+}
+.mainnav .link{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    /* gap: 500px; */
+}
+.search img{
+    margin-top:10px
+}
+.herosectionimage img{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.heroimage{
+    background: url(/src/images/herosection.png) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.heroimage h4{
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.heroimage h1{
+    text-align: center;
+
+    color: white;
+    font-size: 50px;
+}.heroimage h6{
+    text-align: center;
+
+    color: white;
+    font-size: 20px;
+}
+.herobutton{
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+.herocontent{
+    padding-top: 15%;
+
+}
+.subsectionone{
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+
+}
+.subsectionone img{
+    height: 350px;
+    margin-top: 10px;
+}
+.aboutheading h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mainaboutus{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* padding: 20px; */
+}
+.aboutussection{
+    margin-top: 30px;
+    
+}
+.abouttcontent p{
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+
+}
+
+.aboutbutton{
+    /* background-color: black; */
+    color: white;
+    /* padding: 10px; */
+    width: 200px;
+    height: 50px;
+    /* margin-top: 20px; */
+}
+.aboutbuttonn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    height: 50px;
+    /* margin-top: 20px; */
+}
+.freshfruitsheading{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mainfreshfruits{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.knowmorebutton button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin-left: 45%;
+    margin-top: 60px;
+    border-radius: 10px;
+    
+}
+.spicesheading{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mainspices{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blogheading h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.blogmainsection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog1{
+    width: 50%;
+}
+.blog2{
+    width: 50%;
+}
+.blog3{
+    width: 50%;
+}
+.blog1content{
+    margin-top: -7px !important;
+    border-top: none;
+    border:1px solid black;
+    /* border-top: none; */
+    width: 80%;
+    margin-left: 55px;
+    /* padding: 20px; */
+
+
+
+}
+.blog1img img{
+    width: 80%;
+    margin-left: 55px;
+}
+.blog1content p{
+    /* width: 300px; */
+    padding: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
+}
+.blog1content h3{
+    /* text-align: center; */
+    text-align: left;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.newsletters img{
+    margin-top: 80px;
+}
+.mainnewssection{
+    background: url(/src/images/newsletterbg.png) no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 50px;
+}
+.mainnewssection{
+    /* width: 100%; */
+    padding: 40px;
+    height: auto;
+    
+}
+.mainnewssection h1{
+    text-align: left;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mainnewssection p{
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.emailsection{
+    padding-top: 20px;
+}
+.emailinput{
+    text-align: left;
+    padding: 10px 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #D4EFF6;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+.emailsection button{
+    background-color: #010336;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: -29px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.readmore button{
+    padding: 0px 10px 20px 20px;
+    border: none;
+    background-color: white;
+    color: #068880;
+    position: relative;
+
+}
+.readmore img{
+    position: absolute;
+    margin-left: 120px;
+
+
+}
+.readmore{
+    display: flex;
+}
+
+
+
+
+.mainfooter{
+    background: url(/src/images/footer\ \(2\).png   ) no-repeat;
+    /* background-image:url(./images/Rectangle\ 37.png) ; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainfoot1{
+    margin-top: 50px;
+
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.mainfoot1{
+    padding-top: 250px;
+}
+/* .logo{
+    padding: 10px 30px;
+} */
+.footertopic1 p{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footertopic2 p{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footertopic3 p{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.bottom{
+    padding: 20px;
+}
+.mainfoot hr{
+    color: white;
+    margin: auto !important;
+    width: 400px !important;
+    /* margin-left: 180px; */
+    /* margin: 50px 180px 0px 180px; */
+}
+.socialicon img{
+    margin-left: -40px;
+}
+.app{
+    overflow: hidden;
+}
+#cartButton {
+    position: relative;
+}
+
+#cartCounter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:500px){
+    .app{
+        overflow: hidden;
+
+    }
+    .socialmedia{
+        display: none;
+    }
+    .logo{
+        margin-left: 20%;
+    }
+    .mainnav {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .search{
+        display: none;
+    }
+
+    .subsectionone{
+        display: block;
+    }
+    .subsectionone img{
+        width: 100%;
+        height: 30%;
+    }
+    .mainaboutus{
+        display: block !important;
+    }
+    .aboutimage img{
+        width: 380px;
+        padding: 0px 25px 20px 25px;
+    }
+    .abouttcontent{
+        padding: 0px 10px;
+    }
+    .aboutbutton{
+        margin-left: 25%;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 7px;
+    }
+    .mainfreshfruits{
+        display: block;
+    }
+    .ff1{
+        padding: 0px 40px 30px 40px ;
+    }
+    .ff2{
+        padding: 30px 40px;
+    }
+    .ff3{
+        padding:  30px 40px;
+    }
+    .ff4{
+        padding: 30px 40px 0px 40px;
+    }
+    .knowmorebutton{
+        margin-left: -100px ;
+    }
+    .sectionfour{
+        margin-top: 30px;
+    }
+    .mainspices{
+        display: block;
+    }
+    .s1{
+        padding: 0px 40px 30px 40px ;
+    }
+    .s2{
+        padding: 30px 40px;
+    }
+    .s3{
+        padding:  30px 40px;
+    }
+    .s4{
+        padding: 30px 40px 0px 40px;
+    }
+    .blogmainsection{
+        display: block !important;
+    }
+    .blog1img img{
+        margin-left: 40px !important;
+        width: 400px;
+        height: 200px;
+
+    }
+    .blog1{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .blog1content{
+        margin-left: 40px !important;
+
+    }
+    .emailsection button{
+        margin-left: 30% !important;
+        margin-top: 20px;
+
+    }
+    .emailsection input{
+        margin-left: 10% !important;
+        margin-top: 20px;
+
+    }
+    .mainnewssection p{
+        text-align: center;
+    }
+    .mainfoot1{
+        display: block !important;
+    }
+    .footertopic1{
+        text-align: center;
+    }
+    .footertopic2{
+        text-align: center;
+    }
+    .footertopic3{
+        text-align: center;
+    }
+    .mainfoot hr{
+        margin-left: 0px !important;
+    }
+    .bottom{
+        margin-left: 0px !important;
+    }
+    .socialicon{
+        margin-left: 35% !important;
+    }
+    .app{
+        overflow:  hidden !important;
+    }
+
+    
+
+}
+@media only screen and (max-width: 1024px) {
+    .app{
+        overflow: hidden;
+
+    }
+    .socialmedia{
+        display: none;
+    }
+    .logo{
+        margin-left: 2%;
+    }
+    .mainnav {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 80px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .heroimage{
+        height: 43vh;
+
+    }
+    .search{
+        display: none;
+    }
+
+    .subsectionone{
+        display: block;
+    }
+    .subsectionone img{
+        width: 100%;
+        height: 30%;
+    }
+    .mainaboutus{
+        display: block !important;
+    }
+    .aboutimage img{
+        width: 100%;
+        padding: 0px 25px 20px 25px;
+    }
+    .abouttcontent{
+        padding: 0px 10px;
+    }
+    .aboutbutton{
+        margin: auto;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 7px;
+    }
+    .mainfreshfruits{
+        display: block;
+    }
+    .ff1{
+        padding: 0px 40px 30px 40px ;
+    }
+    .ff1 img{
+        width: 100%;
+    }
+    .ff2{
+        padding: 30px 40px;
+    }
+    .ff2 img{
+        width: 100%;
+    }
+    .ff3{
+        padding:  30px 40px;
+    }
+    .ff3 img{
+        width: 100%;
+    }
+    .ff4{
+        padding: 30px 40px 0px 40px;
+    }
+    .ff4 img{
+        width: 100%;
+    }
+    .knowmorebutton{
+        margin-left: -100px ;
+    }
+    .sectionfour{
+        margin-top: 30px;
+    }
+    .mainspices{
+        display: block;
+    }
+    .s1{
+        padding: 0px 40px 30px 40px ;
+    }
+    .s1 img{
+        width: 100%;
+    }
+    .s2{
+        padding: 30px 40px;
+    }
+    .s2 img{
+        width: 100%;
+    }
+    .s3{
+        padding:  30px 40px;
+    }
+    .s3 img{
+        width: 100%;
+    }
+    .s4{
+        padding: 30px 40px 0px 40px;
+    }
+    .s4 img{
+        width: 100%;
+    }
+    .blogmainsection{
+        display: block !important;
+    }
+    .blog1img img{
+        margin-left: 80px !important;
+        width: 100%;
+        height: auto;
+        /* height: 200px; */
+
+    }
+    .blog1{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .blog1content{
+        margin-left: 80px !important;
+
+    }
+    
+    .emailsection input{
+        margin: auto !important;
+        /* margin: 20px; */
+
+    }
+    .emailsection{
+        margin: auto;
+    }
+    .mainnewssection p{
+        text-align: center;
+    }
+    .mainfoot1{
+        display: block !important;
+    }
+    .footertopic1{
+        text-align: center;
+    }
+    .footertopic2{
+        text-align: center;
+    }
+    .footertopic3{
+        text-align: center;
+    }
+    .mainfoot hr{
+        margin: auto !important;
+    }
+    .bottom{
+        margin-left: 0px !important;
+    }
+    .socialicon img{
+        margin: 0px -50px !important;
+    }
+    .app{
+        overflow:  hidden !important;
+    }
+
+}

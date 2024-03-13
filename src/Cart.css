@@ -1,0 +1,198 @@
+.innerdiv{
+    display: flex;
+}
+.products12{
+    background-color:#E6E6E6    ;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.removebutton{
+    background-color: darkred;
+    border: none;
+    border-radius: 10px;
+    height: 55px;
+    width: 130px;
+    color: white;
+    margin-top: 11%;
+    margin-right: 20px;
+}
+.producttextt{
+    display: flex;
+}
+.producttextt h4{
+    margin-top: 39%;
+    padding: 50px;
+}
+.productamount h5{
+    margin-top: 102%;
+    padding: 50px;
+}
+.increment{
+    display: flex;
+    gap: 10px;
+    margin-top: 12%;
+}
+.incrementbutton{
+    border: 1px solid green;
+
+    color: green;
+    
+    height: 30px;
+    width: 30px;
+}
+.decrementbutton{
+    border: 1px solid indianred;
+
+
+    color: indianred;
+    
+    height: 30px;
+    width: 30px;
+}
+.totalprice{
+    text-align: end;
+    padding: 0px 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .app{
+        overflow: hidden;
+
+    }
+    .socialmedia{
+        display: none;
+    }
+    .logo{
+        margin-left: 20%;
+    }
+    .mainnav {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .search{
+        display: none;
+    }
+
+    .subsectionone{
+        display: block;
+    }
+    .subsectionone img{
+        width: 100%;
+        height: 30%;
+    }
+    .products1{
+        display: block !important;
+    }
+    .product1 img{
+        width: 100%;
+        height: auto;
+        margin: 0px 0px !important;
+    }
+    .innerdiv{
+        display: block;
+    }
+    .productsection{
+        display: block;
+    }
+    .products12{
+        display: block;
+    }
+    .productamount h5 {
+        margin-top: -23%;
+        text-align: center;
+    }
+    .producttextt h4{
+        margin-top: 0%;
+        width: 100%;
+        text-align: center;
+    
+    }
+    .increment{
+        margin-top: -31px;
+        margin-left: 150px;
+
+    }
+    
+    .totalprice{
+        text-align: center;
+    }
+    .mainnewssection h1 {
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .removebutton{
+        margin-left: 35%;
+        margin-bottom: 10%;
+        padding: 0px ;
+    }
+    .addcart{
+        margin-left: 25%;
+    }
+    
+    .blogmainsection{
+        display: block !important;
+    }
+    .blog1img img{
+        margin-left: 40px !important;
+        width: 310px;
+        height: 200px;
+
+    }
+    .blog1{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .blog1content{
+        margin-left: 40px !important;
+
+    }
+    .emailsection button{
+        margin-left: 30% !important;
+        margin-top: 20px;
+
+    }
+    .emailsection input{
+        margin-left: 10% !important;
+        margin-top: 20px;
+
+    }
+    .mainnewssection p{
+        text-align: center;
+    }
+    .mainfoot1{
+        display: block !important;
+    }
+    .footertopic1{
+        text-align: center;
+    }
+    .footertopic2{
+        text-align: center;
+    }
+    .footertopic3{
+        text-align: center;
+    }
+    .mainfoot hr{
+        margin-left: 0px !important;
+    }
+    .bottom{
+        margin-left: 0px !important;
+    }
+    .socialicon{
+        margin-left: 35% !important;
+    }
+    .app{
+        overflow:  hidden !important;
+    }
+
+    
+
+}
